@@ -1,0 +1,36 @@
+.why-up{
+    display: flex;
+    flex: 0.5fr 1fr;
+    align-items: start;
+    justify-content: space-between;
+    padding: 6rem 4rem 8rem;
+}
+.why-us{
+    text-align: left;
+    width: 29vw;
+}
+.why-us h1 {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    color: #020D37;
+    width: 29vw;
+}
+.why-us p{
+    color: #F59E00;
+    font-size: 0.75rem;
+}
+@media screen and (max-width: 800px) {
+    .why-up{
+        display: flex;
+        flex-direction: column;
+        flex: 0.5fr 1fr;
+        align-items: center;
+        justify-content: space-between;
+        padding: 6rem 4rem 8rem;
+        gap: 2rem;
+    }
+    .why-us{
+        text-align: center;
+        width: 60vw;
+    }
+}
